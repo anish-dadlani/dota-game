@@ -9,3 +9,6 @@ D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.tournament.re
 D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.csproj.GenerateResource.Cache
 D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.exe
 D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.pdb
+D:\Projects\C#\dota-game\Dota_Two_Game\bin\Debug\Dota_Two_Game.exe.config
+D:\Projects\C#\dota-game\Dota_Two_Game\obj\Debug\Dota_Two_Game.exe
+D:\Projects\C#\dota-game\Dota_Two_Game\obj\Debug\Dota_Two_Game.pdb
