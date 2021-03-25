@@ -1,0 +1,11 @@
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\bin\Debug\Dota_Two_Game.exe.config
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\bin\Debug\Dota_Two_Game.exe
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\bin\Debug\Dota_Two_Game.pdb
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.MDI.resources
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.Properties.Resources.resources
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.Sample.resources
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.Sample2.resources
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.tournament.resources
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.csproj.GenerateResource.Cache
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.exe
+D:\Projects\C#\Dota_Two_Game\Dota_Two_Game\obj\Debug\Dota_Two_Game.pdb
