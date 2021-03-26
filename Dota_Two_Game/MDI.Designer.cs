@@ -31,13 +31,17 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fILEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cHARTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tOURNAMENTDETAILSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fILEToolStripMenuItem});
+            this.fILEToolStripMenuItem,
+            this.cHARTToolStripMenuItem,
+            this.tOURNAMENTDETAILSToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(979, 24);
@@ -59,6 +63,20 @@
             this.eXITToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.eXITToolStripMenuItem.Text = "EXIT";
             this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click);
+            // 
+            // cHARTToolStripMenuItem
+            // 
+            this.cHARTToolStripMenuItem.Name = "cHARTToolStripMenuItem";
+            this.cHARTToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.cHARTToolStripMenuItem.Text = "CHART";
+            this.cHARTToolStripMenuItem.Click += new System.EventHandler(this.cHARTToolStripMenuItem_Click);
+            // 
+            // tOURNAMENTDETAILSToolStripMenuItem
+            // 
+            this.tOURNAMENTDETAILSToolStripMenuItem.Name = "tOURNAMENTDETAILSToolStripMenuItem";
+            this.tOURNAMENTDETAILSToolStripMenuItem.Size = new System.Drawing.Size(142, 20);
+            this.tOURNAMENTDETAILSToolStripMenuItem.Text = "TOURNAMENT DETAILS";
+            this.tOURNAMENTDETAILSToolStripMenuItem.Click += new System.EventHandler(this.tOURNAMENTDETAILSToolStripMenuItem_Click);
             // 
             // MDI
             // 
@@ -85,6 +103,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fILEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eXITToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cHARTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tOURNAMENTDETAILSToolStripMenuItem;
     }
 }
 

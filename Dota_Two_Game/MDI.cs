@@ -32,5 +32,17 @@ namespace Dota_Two_Game
         {
             Application.Exit();
         }
+
+        private void cHARTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Chart chart = new Chart();
+            MainClass.show_window(chart, this);
+        }
+
+        private void tOURNAMENTDETAILSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            players player = new players();
+            MainClass.show_window(player, this);
+        }
     }
 }

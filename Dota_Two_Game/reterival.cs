@@ -41,5 +41,38 @@ namespace Dota_Two_Game
                 MainClass.show_msg(ex.Message, "Error", "Error");
             }
         }
+
+        public void show_players(DataGridView gv, DataGridViewColumn PlayerIDGV, DataGridViewColumn TournamentGV, DataGridViewColumn PlayerGV,
+            DataGridViewColumn TournamentDateGV, DataGridViewColumn PlayerPrizeGV, int? data = null)
+        {
+            try
+            {
+                SqlCommand cmd;
+                if (data == null)
+                {
+                    cmd = new SqlCommand("st_getTournamentDetails", MainClass.con);
+                }
+                else
+                {
+                    cmd = new SqlCommand("st_getTournamentDetailsTID", MainClass.con);
+                    cmd.Parameters.AddWithValue("@id", data);
+                }
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                PlayerIDGV.DataPropertyName = dt.Columns["PlayerID"].ToString();
+                TournamentGV.DataPropertyName = dt.Columns["Tournament"].ToString();
+                PlayerGV.DataPropertyName = dt.Columns["Player"].ToString();
+                TournamentDateGV.DataPropertyName = dt.Columns["Tournament Date"].ToString();
+                PlayerPrizeGV.DataPropertyName = dt.Columns["Player Prize"].ToString();
+
+                gv.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MainClass.show_msg(ex.Message, "Error", "Error");
+            }
+        }
     }
 }
